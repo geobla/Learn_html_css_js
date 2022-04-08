@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>HTML Favicon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="Keywords"
+      content="HTML, Python, CSS, SQL, JavaScript, How to, PHP, Java, C, C++, C#, jQuery, Bootstrap, Colors, W3.CSS, XML, MySQL, Icons, NodeJS, React, Graphics, Angular, R, AI, Git, Data Science, Code Game, Tutorials, Programming, Web Development, Training, Learning, Quiz, Exercises, Courses, Lessons, References, Examples, Learn to code, Source code, Demos, Tips, Website"
+    />
+    <meta
+      name="Description"
+      content="Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="darktheme">
+    <style>
+      #darkmodemenu {
+        position: absolute;
+        top: -40px;
+        right: 16px;
+        padding: 5px 20px 10px 18px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        z-index: -1;
+        transition: top 0.2s;
+        user-select: none;
+      }
+    </style>
+    <h1>HTML <span class="color_h1">Favicon</span></h1>
+    <div class="w3-clear nextprev">
+      <a class="w3-left w3-btn" href="html_css.html">❮ Previous</a>
+      <a class="w3-right w3-btn" href="html_tables.html">Next ❯</a>
+    </div>
+    <hr />
+    <p class="intro">
+      A favicon is a small image displayed next to the page title in the browser
+      tab.
+    </p>
+    <hr />
+
+    <h2>How To Add a Favicon in HTML</h2>
+    <p>
+      You can use any image you like as your favicon. You can also create your
+      own favicon on sites like
+      <a href="https://www.favicon.cc" target="_blank">
+        https://www.favicon.cc</a
+      >.
+    </p>
+
+    <div class="w3-panel w3-note">
+      <p>
+        <strong>Tip:</strong> A favicon is a small image, so it should be a
+        simple image with high contrast.
+      </p>
+    </div>
+
+    <p>
+      A favicon image is displayed to the left of the page title in the browser
+      tab, like this:
+    </p>
+    <img
+      src="img_favicon.png"
+      alt="Example of favicon"
+      style="width: 485px; height: 82px"
+    />
+
+    <p>
+      To add a favicon to your website, either save your favicon image to the
+      root directory of your webserver, or create a folder in the root directory
+      called images, and save your favicon image in this folder. A common name
+      for a favicon image is "favicon.ico".
+    </p>
+    <p>
+      Next, add a <code class="w3-codespan">&lt;link&gt;</code> element to your
+      "index.html" file, after the
+      <code class="w3-codespan">&lt;title&gt;</code> element, like this:
+    </p>
+
+    <div class="w3-example">
+      <h3>Example</h3>
+      <div class="w3-code notranslate htmlHigh">
+        <span class="tagnamecolor" style="color: brown"
+          ><span class="tagcolor" style="color: mediumblue">&lt;</span
+          >!DOCTYPE<span class="attributecolor" style="color: red"> html</span
+          ><span class="tagcolor" style="color: mediumblue">&gt;</span></span
+        ><br /><span class="tagnamecolor" style="color: brown"
+          ><span class="tagcolor" style="color: mediumblue">&lt;</span>html<span
+            class="tagcolor"
+            style="color: mediumblue"
+            >&gt;</span
+          ></span
+        ><br /><span class="tagnamecolor" style="color: brown"
+          ><span class="tagcolor" style="color: mediumblue">&lt;</span>head<span
+            class="tagcolor"
+            style="color: mediumblue"
+            >&gt;</span
+          ></span
+        ><br />&nbsp;
+        <span class="tagnamecolor" style="color: brown"
+          ><span class="tagcolor" style="color: mediumblue">&lt;</span
+          >title<span class="tagcolor" style="color: mediumblue"
+            >&gt;</span
+          ></span
+        >My Page Title<span class="tagnamecolor" style="color: brown"
+          ><span class="tagcolor" style="color: mediumblue">&lt;</span
+          >/title<span class="tagcolor" style="color: mediumblue"
+            >&gt;</span
+          ></span
+        ><br />&nbsp;
+        <span class="tagnamecolor" style="color: brown"
+          ><span class="tagcolor" style="color: mediumblue">&lt;</span>link<span
+            class="attributecolor"
+            style="color: red"
+          >
+            rel<span class="attributevaluecolor" style="color: mediumblue"
+              >="icon"</span
+            >
+            type<span class="attributevaluecolor" style="color: mediumblue"
+              >="image/x-icon"</span
+            >
+            href<span class="attributevaluecolor" style="color: mediumblue"
+              >="/images/favicon.ico"</span
+            ></span
+          ><span class="tagcolor" style="color: mediumblue">&gt;</span></span
+        ><br /><span class="tagnamecolor" style="color: brown"
+          ><span class="tagcolor" style="color: mediumblue">&lt;</span
+          >/head<span class="tagcolor" style="color: mediumblue"
+            >&gt;</span
+          ></span
+        ><br /><span class="tagnamecolor" style="color: brown"
+          ><span class="tagcolor" style="color: mediumblue">&lt;</span>body<span
+            class="tagcolor"
+            style="color: mediumblue"
+            >&gt;</span
+          ></span
+        ><br />
+        <br /><span class="tagnamecolor" style="color: brown"
+          ><span class="tagcolor" style="color: mediumblue">&lt;</span>h1<span
+            class="tagcolor"
+            style="color: mediumblue"
+            >&gt;</span
+          ></span
+        >This is a Heading<span class="tagnamecolor" style="color: brown"
+          ><span class="tagcolor" style="color: mediumblue">&lt;</span>/h1<span
+            class="tagcolor"
+            style="color: mediumblue"
+            >&gt;</span
+          ></span
+        ><br /><span class="tagnamecolor" style="color: brown"
+          ><span class="tagcolor" style="color: mediumblue">&lt;</span>p<span
+            class="tagcolor"
+            style="color: mediumblue"
+            >&gt;</span
+          ></span
+        >This is a paragraph.<span class="tagnamecolor" style="color: brown"
+          ><span class="tagcolor" style="color: mediumblue">&lt;</span>/p<span
+            class="tagcolor"
+            style="color: mediumblue"
+            >&gt;</span
+          ></span
+        ><br /><br /><span class="tagnamecolor" style="color: brown"
+          ><span class="tagcolor" style="color: mediumblue">&lt;</span
+          >/body<span class="tagcolor" style="color: mediumblue"
+            >&gt;</span
+          ></span
+        ><br /><span class="tagnamecolor" style="color: brown"
+          ><span class="tagcolor" style="color: mediumblue">&lt;</span
+          >/html<span class="tagcolor" style="color: mediumblue"
+            >&gt;</span
+          ></span
+        >
+      </div>
+    </div>
+
+    <p>
+      Now, save the "index.html" file and reload it in your browser. Your
+      browser tab should now display your favicon image to the left of the page
+      title.
+    </p>
+    <hr />
+    <div id="midcontentadcontainer" style="overflow: auto; text-align: center">
+      <!-- MidContent -->
+      <!-- <p class="adtext">Advertisement</p> -->
+
+      <div id="adngin-mid_content-0"></div>
+    </div>
+    <hr />
+
+    <h2>Favicon File Format Support</h2>
+    <p>
+      The following table shows the file format support for a favicon image:
+    </p>
+    <table class="ws-table-all notranslate">
+      <tbody>
+        <tr>
+          <th>Browser</th>
+          <th>ICO</th>
+          <th>PNG</th>
+          <th>GIF</th>
+          <th>JPEG</th>
+          <th>SVG</th>
+        </tr>
+        <tr>
+          <td>Edge</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Chrome</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Firefox</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Opera</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Safari</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+
+    <h2>Chapter Summary</h2>
+    <ul>
+      <li>
+        Use the HTML <code class="w3-codespan">&lt;link&gt;</code> element to
+        insert a favicon
+      </li>
+    </ul>
+    <hr />
+
+    <h2>HTML Link Tag</h2>
+    <table class="ws-table-all notranslate">
+      <tbody>
+        <tr>
+          <th>Tag</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td><a href="/tags/tag_link.html">&lt;link&gt;</a></td>
+          <td>
+            Defines the relationship between a document and an external resource
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="w3-note w3-panel">
+      <p>
+        For a complete list of all available HTML tags, visit our
+        <a href="/tags/default.html">HTML Tag Reference</a>.
+      </p>
+    </div>
+
+    <br />
+    <div class="w3-clear nextprev">
+      <a class="w3-left w3-btn" href="html_css.html">❮ Previous</a>
+      <a class="w3-right w3-btn" href="html_tables.html">Next ❯</a>
+    </div>
+    <br />
+  </body>
+</html>
