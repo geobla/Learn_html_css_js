@@ -1,0 +1,10 @@
+<div class="w3-example">
+      <div class="w3-code notranslate htmlHigh">
+        <style>
+          .selector {
+            attribute: value;
+          }
+        </style>
+        
+      </div>
+    </div>
