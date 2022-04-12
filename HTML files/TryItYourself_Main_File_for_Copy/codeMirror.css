@@ -1,16 +1,13 @@
 /*
 Copyright (C) 2016 by Marijn Haverbeke <marijnh@gmail.com> and others
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
-
 The above copyright notice and this permission notice shall be included in
 all copies or substantial portions of the Software.
-
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -19,9 +16,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
-
 /* BASICS */
-
 .CodeMirror {
   /* Set height, width, borders, and global font properties here */
   font-family: Consolas, Menlo, monospace;
@@ -29,23 +24,18 @@ THE SOFTWARE.
   height: 300px;
   color: black;
 }
-
 /* PADDING */
-
 .CodeMirror-lines {
   padding: 4px 0; /* Vertical padding around content */
 }
 .CodeMirror pre {
   padding: 0 4px; /* Horizontal padding of content */
 }
-
 .CodeMirror-scrollbar-filler,
 .CodeMirror-gutter-filler {
   background-color: white; /* The little square between H and V scrollbars */
 }
-
 /* GUTTER */
-
 .CodeMirror-gutters {
   border-right: 1px solid #ddd;
   background-color: #f7f7f7;
@@ -60,16 +50,13 @@ THE SOFTWARE.
   color: #999;
   white-space: nowrap;
 }
-
 .CodeMirror-guttermarker {
   color: black;
 }
 .CodeMirror-guttermarker-subtle {
   color: #999;
 }
-
 /* CURSOR */
-
 .CodeMirror-cursor {
   border-left: 1px solid black;
   border-right: none;
@@ -87,7 +74,6 @@ THE SOFTWARE.
 .cm-fat-cursor div.CodeMirror-cursors {
   z-index: 1;
 }
-
 .cm-animate-fat-cursor {
   width: auto;
   border: 0;
@@ -123,16 +109,13 @@ THE SOFTWARE.
   100% {
   }
 }
-
 /* Can style cursor different in overwrite (non-insert) mode */
 .CodeMirror-overwrite .CodeMirror-cursor {
 }
-
 .cm-tab {
   display: inline-block;
   text-decoration: inherit;
 }
-
 .CodeMirror-rulers {
   position: absolute;
   left: 0;
@@ -147,9 +130,7 @@ THE SOFTWARE.
   bottom: 0;
   position: absolute;
 }
-
 /* DEFAULT THEME */
-
 .cm-s-default .cm-header {
   color: blue;
 }
@@ -175,7 +156,6 @@ THE SOFTWARE.
 .cm-strikethrough {
   text-decoration: line-through;
 }
-
 .cm-s-default .cm-keyword {
   color: mediumblue /*#708*/;
 }
@@ -255,7 +235,6 @@ THE SOFTWARE.
 .cm-s-default .cm-link {
   color: #00c;
 }
-
 /*NEW THEME*/
 body.newtheme .CodeMirror {
   height: initial;
@@ -347,7 +326,6 @@ body.newtheme .cm-s-default .cm-link {
 body.newtheme .cm-s-default .cm-attribute + .cm-string {
   color: #07a;
 }
-
 /*DARK THEME*/
 body.darktheme .cm-s-default .cm-keyword {
   color: #88c999 /*green*/;
@@ -440,24 +418,19 @@ body.darktheme .cm-s-default .cm-link {
 body.darktheme .CodeMirror-cursor {
   border-left: 1px solid white;
 }
-
 .cm-m-clike.cm-string {
   color: brown /*#a11*/;
 }
-
 .cm-s-default .cm-error {
   color: #f00;
 }
 .cm-invalidchar {
   color: #f00;
 }
-
 .CodeMirror-composing {
   border-bottom: 2px solid;
 }
-
 /* Default styles for common addons */
-
 div.CodeMirror span.CodeMirror-matchingbracket {
   color: #0f0;
 }
@@ -470,24 +443,19 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 .CodeMirror-activeline-background {
   background: #e8f2ff;
 }
-
 /* STOP */
-
 /* The rest of this file contains styles related to the mechanics of
      the editor. You probably shouldn't touch them. */
-
 .CodeMirror {
   position: relative;
   overflow: hidden;
   background: white;
 }
-
 body.darktheme .CodeMirror {
   background-color: rgb(40, 44, 52);
   background-color: rgb(21, 32, 43);
   color: rgb(255, 255, 255);
 }
-
 .CodeMirror-scroll {
   overflow: scroll !important; /* Things will break if this is overridden */
   /* 30px is the magic margin used to hide the element's real scrollbars */
@@ -503,7 +471,6 @@ body.darktheme .CodeMirror {
   position: relative;
   border-right: 30px solid transparent;
 }
-
 /* The fake, visible scrollbars. Used to force redraw during scrolling
      before actual scrolling happens, thus preventing shaking and
      flickering artifacts. */
@@ -535,7 +502,6 @@ body.darktheme .CodeMirror {
   left: 0;
   bottom: 0;
 }
-
 .CodeMirror-gutters {
   position: absolute;
   left: 0;
@@ -572,7 +538,6 @@ body.darktheme .CodeMirror {
   -moz-user-select: none;
   user-select: none;
 }
-
 .CodeMirror-lines {
   cursor: text;
   min-height: 1px; /* prevents collapsing before first draw */
@@ -603,7 +568,6 @@ body.darktheme .CodeMirror {
   white-space: pre-wrap;
   word-break: normal;
 }
-
 .CodeMirror-linebackground {
   position: absolute;
   left: 0;
@@ -612,20 +576,16 @@ body.darktheme .CodeMirror {
   bottom: 0;
   z-index: 0;
 }
-
 .CodeMirror-linewidget {
   position: relative;
   z-index: 2;
   overflow: auto;
 }
-
 .CodeMirror-widget {
 }
-
 .CodeMirror-code {
   outline: none;
 }
-
 /* Force content-box sizing for the elements where we expect it */
 .CodeMirror-scroll,
 .CodeMirror-sizer,
@@ -635,7 +595,6 @@ body.darktheme .CodeMirror {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
-
 .CodeMirror-measure {
   position: absolute;
   width: 100%;
@@ -643,7 +602,6 @@ body.darktheme .CodeMirror {
   overflow: hidden;
   visibility: hidden;
 }
-
 .CodeMirror-cursor {
   position: absolute;
   pointer-events: none;
@@ -651,7 +609,6 @@ body.darktheme .CodeMirror {
 .CodeMirror-measure pre {
   position: static;
 }
-
 div.CodeMirror-cursors {
   visibility: hidden;
   position: relative;
@@ -660,11 +617,9 @@ div.CodeMirror-cursors {
 div.CodeMirror-dragcursors {
   visibility: visible;
 }
-
 .CodeMirror-focused div.CodeMirror-cursors {
   visibility: visible;
 }
-
 .CodeMirror-selected {
   background: #d9d9d9;
 }
@@ -690,7 +645,6 @@ body.darktheme .CodeMirror-focused .CodeMirror-selected {
 .CodeMirror-line > span > span::-moz-selection {
   background: #d7d4f0;
 }
-
 .cm-searching {
   background: #ffa;
   background: rgba(255, 255, 0, 0.4);
@@ -705,19 +659,16 @@ body.darktheme .CodeMirror-focused .CodeMirror-selected {
 .cm-force-border {
   padding-right: 0.1px;
 }
-
 @media print {
   /* Hide the cursor when printing */
   .CodeMirror div.CodeMirror-cursors {
     visibility: hidden;
   }
 }
-
 /* See issue #2901 */
 .cm-tab-wrap-hack:after {
   content: "";
 }
-
 /* Help users use markselection to safely style text background */
 span.CodeMirror-selectedtext {
   background: none;

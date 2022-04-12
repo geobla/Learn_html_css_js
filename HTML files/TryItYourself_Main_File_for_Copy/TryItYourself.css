@@ -1620,7 +1620,6 @@ a {
 .w3-hover-border-pale-blue:hover {
   border-color: #e7ffff !important;
 }
-
 a:hover,
 a:active {
   color: #059862;
@@ -1948,7 +1947,6 @@ a.topnav-localicons {
   max-width: 230px;
   background-color: #282a35;
 }
-
 .bottomad {
   padding: 0 16px 16px 0;
   float: left;
@@ -1982,7 +1980,6 @@ a.topnav-localicons {
 #nav_exercises::-webkit-scrollbar-thumb {
   background: #999999;
 }
-
 #nav_tutorials,
 #nav_references,
 #nav_exercises,
@@ -2078,7 +2075,6 @@ a.topnav-localicons {
 .w3-code {
   border-left: 4px solid #04aa6d;
 }
-
 .nextprev a.w3-right,
 .nextprev a.w3-left {
   background-color: #04aa6d;
@@ -2403,7 +2399,6 @@ input.gsc-input,
       url("fonts/montserrat-v18-latin-regular.svg#Montserrat") format("svg"); /* Legacy iOS */
   font-display: swap;
 }
-
 /* fontawesome */
 @font-face {
   font-family: "fontawesome";
@@ -2420,7 +2415,6 @@ input.gsc-input,
       format("svg"); /* Legacy iOS */
   font-display: swap;
 }
-
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 fontawesome;
@@ -2433,7 +2427,6 @@ input.gsc-input,
 .fa-2x {
   font-size: 2em;
 }
-
 .fa-home:before {
   content: "\e800";
 }
@@ -2563,7 +2556,6 @@ input.gsc-input,
 .fa-smiley-10:before {
   content: "\f329";
 }
-
 span.marked,
 span.deprecated {
   color: #e80000;
@@ -2960,7 +2952,6 @@ a.btnsmall:hover {
 .darktheme .sqlnumbercolor {
   color: #ff9999 /*red*/ !important;
 }
-
 /*
 #ffffff; - #1d2a35;       - body/main
 #E7E9EB; - #38444d;       - examples
@@ -3158,7 +3149,6 @@ body.darkpagetheme .w3-button:active.w3-white {
 body.darkpagetheme .invert-on-dark {
   filter: invert(1);
 }
-
 @media only screen and (max-device-width: 480px) {
   .w3-code,
   w3-codeline,
@@ -3306,7 +3296,6 @@ hr[id^="ez-insert-after-placeholder"] {
     display: initial;
   }
 }
-
 /*NYTT:*/
 #main {
   padding: 16px 32px 32px 32px;
@@ -3356,7 +3345,6 @@ hr[id^="ez-insert-after-placeholder"] {
 .w3-warning {
   border-left: none;
 }
-
 /*.w3-panel {*/
 .w3-note,
 .w3-warning {
@@ -3397,9 +3385,7 @@ h2 {
 .nextprev .w3-btn:not(.w3-left):not(.w3-right):focus {
   background-color: #f1f1f1 !important;
 }
-
 /*NYTT br:*/
-
 .ws-table-all {
   border-collapse: collapse;
   border-spacing: 0;
@@ -3427,7 +3413,6 @@ h2 {
 .ws-table-all td:first-child {
   padding-left: 16px;
 }
-
 .bar-item-hover:hover {
   background-color: #04aa6d !important;
   color: white !important;
@@ -3441,7 +3426,6 @@ h2 {
   background-color: #059862 !important;
   color: white !important;
 }
-
 @media screen and (min-width: 860px) {
   #myAccordion {
     display: none !important;
@@ -3452,13 +3436,11 @@ h2 {
     display: none;
   }
 }
-
 @media screen and (max-width: 700px) {
   #cert_navbtn {
     display: none !important;
   }
 }
-
 #myAccordion {
   font-family: "Source Sans Pro", sans-serif;
   z-index: 1;
@@ -3476,25 +3458,20 @@ h2 {
 #myAccordion .sectionxsclosenavspan {
   display: none;
 }
-
 .ws-css-exercises {
   background-color: #282a35;
   color: white;
 }
-
 .ws-css-exercises .w3-btn {
   background-color: #04aa6d;
   color: white;
 }
-
 a.btnsmall {
   background-color: #04aa6d !important;
   color: white;
   border-radius: 5px;
 }
-
 /* NYTT br AUG 2021 */
-
 .ribbon-topnav {
   font-size: 11px;
   font-weight: bold;
@@ -3508,85 +3485,68 @@ a.btnsmall {
   top: -2px;
   background-color: white;
 }
-
 @media screen and (max-width: 1066px) {
   .ws-hide-1066 {
     display: none !important;
   }
 }
-
 @media screen and (max-width: 900px) {
   .ws-hide-900 {
     display: none !important;
   }
 }
-
 @media screen and (max-width: 800px) {
   .ws-hide-800 {
     display: none !important;
   }
 }
-
 /* NYE farger */
-
 .ws-black {
   background-color: #282a35 !important;
   color: white !important;
 }
-
 .ws-hover-black:hover {
   background-color: #000 !important;
   color: white !important;
 }
-
 .ws-grey {
   background-color: #e7e9eb !important;
   color: black !important;
 }
-
 .ws-yellow {
   background-color: #fff4a3 !important;
   color: black !important;
 }
-
 .ws-green {
   background-color: #04aa6d !important;
   color: white !important;
 }
-
 .ws-text-green {
   color: #04aa6d !important;
 }
-
 .ws-hover-green:hover {
   background-color: #059862 !important;
   color: white !important;
 }
-
 .ws-hover-text-green:hover {
   color: #059862 !important;
 }
-
 .ws-light-green {
   background-color: #d9eee1 !important;
   color: black !important;
 }
-
 .ws-turquoise {
   background-color: #96d4d4 !important;
   color: black !important;
 }
-
 .ws-pink {
   background-color: #ffc0c7 !important;
   color: black !important;
 }
-
 .ws-light-pink {
   background-color: #f3ecea !important;
   color: black !important;
 }
-
 .ws-btn {
   font-size: 17px;
   font-family: "Source Sans Pro", sans-serif;
@@ -3610,13 +3570,11 @@ a.btnsmall {
   background-color: #04aa6d;
   color: #ffffff;
 }
-
 .ws-btn:hover,
 .ws-btn:active {
   background-color: #059862 !important;
   color: #ffffff;
 }
-
 a.btnsmall:hover {
   box-shadow: none;
 }
@@ -3666,7 +3624,6 @@ w3-codeline {
   margin-left: -16px;
   margin-right: -16px;
 }
-
 .adtext {
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 12px;
@@ -3676,7 +3633,6 @@ w3-codeline {
   padding-top: 0;
   padding-bottom: 0;
 }
-
 #snhb-mid_content-0 {
   height: 292px;
   width: 100%;
@@ -3707,7 +3663,6 @@ w3-codeline {
     height: 62px;
   }
 }
-
 @media screen and (max-width: 600px) {
   .w3-example,
   #w3-exerciseform {
@@ -3716,7 +3671,6 @@ w3-codeline {
     border-radius: 0;
   }
 }
-
 /*@media only screen and (max-device-width: 480px) {*/
 @media only screen and (max-width: 500px) {
   #main {
@@ -3747,7 +3701,6 @@ w3-codeline {
     padding-right: 16px !important;
   }
 }
-
 html {
   box-sizing: border-box;
 }
@@ -5369,7 +5322,6 @@ a {
 .w3-hover-border-pale-blue:hover {
   border-color: #e7ffff !important;
 }
-
 a:hover,
 a:active {
   color: #059862;
@@ -5697,7 +5649,6 @@ a.topnav-localicons {
   max-width: 230px;
   background-color: #282a35;
 }
-
 .bottomad {
   padding: 0 16px 16px 0;
   float: left;
@@ -5731,7 +5682,6 @@ a.topnav-localicons {
 #nav_exercises::-webkit-scrollbar-thumb {
   background: #999999;
 }
-
 #nav_tutorials,
 #nav_references,
 #nav_exercises,
@@ -5827,7 +5777,6 @@ a.topnav-localicons {
 .w3-code {
   border-left: 4px solid #04aa6d;
 }
-
 .nextprev a.w3-right,
 .nextprev a.w3-left {
   background-color: #04aa6d;
@@ -6152,7 +6101,6 @@ input.gsc-input,
       url("fonts/montserrat-v18-latin-regular.svg#Montserrat") format("svg"); /* Legacy iOS */
   font-display: swap;
 }
-
 /* fontawesome */
 @font-face {
   font-family: "fontawesome";
@@ -6169,7 +6117,6 @@ input.gsc-input,
       format("svg"); /* Legacy iOS */
   font-display: swap;
 }
-
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 fontawesome;
@@ -6182,7 +6129,6 @@ input.gsc-input,
 .fa-2x {
   font-size: 2em;
 }
-
 .fa-home:before {
   content: "\e800";
 }
@@ -6312,7 +6258,6 @@ input.gsc-input,
 .fa-smiley-10:before {
   content: "\f329";
 }
-
 span.marked,
 span.deprecated {
   color: #e80000;
@@ -6709,7 +6654,6 @@ a.btnsmall:hover {
 .darktheme .sqlnumbercolor {
   color: #ff9999 /*red*/ !important;
 }
-
 /*
 #ffffff; - #1d2a35;       - body/main
 #E7E9EB; - #38444d;       - examples
@@ -6907,7 +6851,6 @@ body.darkpagetheme .w3-button:active.w3-white {
 body.darkpagetheme .invert-on-dark {
   filter: invert(1);
 }
-
 @media only screen and (max-device-width: 480px) {
   .w3-code,
   w3-codeline,
@@ -7055,7 +6998,6 @@ hr[id^="ez-insert-after-placeholder"] {
     display: initial;
   }
 }
-
 /*NYTT:*/
 #main {
   padding: 16px 32px 32px 32px;
@@ -7105,7 +7047,6 @@ hr[id^="ez-insert-after-placeholder"] {
 .w3-warning {
   border-left: none;
 }
-
 /*.w3-panel {*/
 .w3-note,
 .w3-warning {
@@ -7146,9 +7087,7 @@ h2 {
 .nextprev .w3-btn:not(.w3-left):not(.w3-right):focus {
   background-color: #f1f1f1 !important;
 }
-
 /*NYTT br:*/
-
 .ws-table-all {
   border-collapse: collapse;
   border-spacing: 0;
@@ -7176,7 +7115,6 @@ h2 {
 .ws-table-all td:first-child {
   padding-left: 16px;
 }
-
 .bar-item-hover:hover {
   background-color: #04aa6d !important;
   color: white !important;
@@ -7190,7 +7128,6 @@ h2 {
   background-color: #059862 !important;
   color: white !important;
 }
-
 @media screen and (min-width: 860px) {
   #myAccordion {
     display: none !important;
@@ -7201,13 +7138,11 @@ h2 {
     display: none;
   }
 }
-
 @media screen and (max-width: 700px) {
   #cert_navbtn {
     display: none !important;
   }
 }
-
 #myAccordion {
   font-family: "Source Sans Pro", sans-serif;
   z-index: 1;
@@ -7225,25 +7160,20 @@ h2 {
 #myAccordion .sectionxsclosenavspan {
   display: none;
 }
-
 .ws-css-exercises {
   background-color: #282a35;
   color: white;
 }
-
 .ws-css-exercises .w3-btn {
   background-color: #04aa6d;
   color: white;
 }
-
 a.btnsmall {
   background-color: #04aa6d !important;
   color: white;
   border-radius: 5px;
 }
-
 /* NYTT br AUG 2021 */
-
 .ribbon-topnav {
   font-size: 11px;
   font-weight: bold;
@@ -7257,85 +7187,68 @@ a.btnsmall {
   top: -2px;
   background-color: white;
 }
-
 @media screen and (max-width: 1066px) {
   .ws-hide-1066 {
     display: none !important;
   }
 }
-
 @media screen and (max-width: 900px) {
   .ws-hide-900 {
     display: none !important;
   }
 }
-
 @media screen and (max-width: 800px) {
   .ws-hide-800 {
     display: none !important;
   }
 }
-
 /* NYE farger */
-
 .ws-black {
   background-color: #282a35 !important;
   color: white !important;
 }
-
 .ws-hover-black:hover {
   background-color: #000 !important;
   color: white !important;
 }
-
 .ws-grey {
   background-color: #e7e9eb !important;
   color: black !important;
 }
-
 .ws-yellow {
   background-color: #fff4a3 !important;
   color: black !important;
 }
-
 .ws-green {
   background-color: #04aa6d !important;
   color: white !important;
 }
-
 .ws-text-green {
   color: #04aa6d !important;
 }
-
 .ws-hover-green:hover {
   background-color: #059862 !important;
   color: white !important;
 }
-
 .ws-hover-text-green:hover {
   color: #059862 !important;
 }
-
 .ws-light-green {
   background-color: #d9eee1 !important;
   color: black !important;
 }
-
 .ws-turquoise {
   background-color: #96d4d4 !important;
   color: black !important;
 }
-
 .ws-pink {
   background-color: #ffc0c7 !important;
   color: black !important;
 }
-
 .ws-light-pink {
   background-color: #f3ecea !important;
   color: black !important;
 }
-
 .ws-btn {
   font-size: 17px;
   font-family: "Source Sans Pro", sans-serif;
@@ -7359,13 +7272,11 @@ a.btnsmall {
   background-color: #04aa6d;
   color: #ffffff;
 }
-
 .ws-btn:hover,
 .ws-btn:active {
   background-color: #059862 !important;
   color: #ffffff;
 }
-
 a.btnsmall:hover {
   box-shadow: none;
 }
@@ -7415,7 +7326,6 @@ w3-codeline {
   margin-left: -16px;
   margin-right: -16px;
 }
-
 .adtext {
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 12px;
@@ -7425,7 +7335,6 @@ w3-codeline {
   padding-top: 0;
   padding-bottom: 0;
 }
-
 #snhb-mid_content-0 {
   height: 292px;
   width: 100%;
@@ -7456,7 +7365,6 @@ w3-codeline {
     height: 62px;
   }
 }
-
 @media screen and (max-width: 600px) {
   .w3-example,
   #w3-exerciseform {
@@ -7465,7 +7373,6 @@ w3-codeline {
     border-radius: 0;
   }
 }
-
 /*@media only screen and (max-device-width: 480px) {*/
 @media only screen and (max-width: 500px) {
   #main {

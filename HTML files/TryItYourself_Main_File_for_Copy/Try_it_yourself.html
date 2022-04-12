@@ -4,7 +4,6 @@
     <title>Tryit Editor</title>
     <meta name="viewport" content="width=device-width" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <!-- <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="436" />
     <meta property="og:image:height" content="228" />
@@ -30,7 +29,6 @@
     <link rel="stylesheet" href="TryItYourself.css" />
     <link rel="stylesheet" href="codeMirror.css" />
     <link rel="stylesheet" href="w3schools30.css" />
-
     <script>
       if (window.addEventListener) {
         window.addEventListener("resize", browserResize);
@@ -38,7 +36,6 @@
         window.attachEvent("onresize", browserResize);
       }
       var xbeforeResize = window.innerWidth;
-
       function browserResize() {
         var afterResize = window.innerWidth;
         if (
@@ -50,7 +47,6 @@
           (xbeforeResize >= 468 && afterResize < 468)
         ) {
           xbeforeResize = afterResize;
-
           if (document.getElementById("adngin-try_it_leaderboard-0")) {
             adngin.queue.push(function () {
               adngin.cmd.startAuction(["try_it_leaderboard"]);
@@ -95,7 +91,6 @@
       .w3-bar .w3-bar-item:hover {
         color: #757575 !important;
       }
-
       #dragbar {
         position: absolute;
         cursor: col-resize;
@@ -231,7 +226,6 @@
       .w3-dropdown-content {
         width: 350px;
       }
-
       #breadcrumb ul {
         font-family: "Montserrat", "Source Sans Pro", sans-serif;
         list-style: none;
@@ -320,11 +314,9 @@
         background-color: #059862 !important;
         color: white !important;
       }
-
       #tryhome {
         display: none;
       }
-
       @media screen and (max-width: 727px) {
         .trytopnav {
           top: 70px;
@@ -367,7 +359,6 @@
           min-width: 310px;
         }
       }
-
       .trytopnav {
         height: 48px !important;
       }
@@ -379,7 +370,6 @@
       a.topnav-icons.fa-menu {
         font-size: 28px !important;
       }
-
       /*OLD .darktheme #breadcrumb li {
         color: #fff;
       }
@@ -396,7 +386,6 @@
       .darktheme .currentcrumb {
         color: #ddd;
       }
-
       body.darktheme {
         background-color: rgb(40, 44, 52);
       }
@@ -447,7 +436,6 @@
       .darktheme .currentcrumb {
         color: #ddd;
       }
-
       body.darktheme {
         background-color: rgb(40, 44, 52);
         background-color: #1d2a35;
@@ -512,12 +500,10 @@
   <body>
     <!-- <div id="tryitLeaderboard"> -->
     <!-- TryitLeaderboard -->
-
     <!--<pre>try_it_leaderboard, all: [320,50][728,90][468,60]</pre>-->
     <!-- <div id="adngin-try_it_leaderboard-0"></div> -->
     <!-- adspace tryit-->
     <!-- </div> -->
-
     <!-- <div id="breadcrumb">
       <ul>
         <li>
@@ -544,7 +530,6 @@
         <li>Tryit: HTML viewport</li>
       </ul>
     </div> -->
-
     <div class="trytopnav">
       <div class="w3-bar" style="overflow: auto">
         <a
@@ -583,7 +568,6 @@
         >
           Run &#10095;
         </button>
-
         <!--<span class="w3-right w3-hide-small xxw3-hide-medium" style="padding:8px 8px 8px 8px;display:block"></span>-->
         <span
           class="w3-right w3-hide-small"
@@ -598,9 +582,7 @@
         ></span>
       </div>
     </div>
-
     <div id="shield"></div>
-
     <a href="javascript:void(0)" id="dragbar"></a>
     <div id="container">
       <div
@@ -711,13 +693,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-
 <h2>Setting the Viewport</h2>
 <p>This example does not really do anything, other than showing you how to add the viewport meta element.</p>
-
 </body>
 </html>
-
 </textarea
             >
             <form
@@ -757,12 +736,10 @@
         color: #ddd;
       }
     </style>
-
     <script src="codemirror.js"></script>
     <script src="codemirror_jsx.js"></script>
     <script>
       submitTryit();
-
       function submitTryit(n) {
         if (window.editor) {
           window.editor.save();
@@ -1038,7 +1015,6 @@
         window.addEventListener("load", fixDragBtn);
         window.addEventListener("load", showFrameSize);
       }
-
       function retheme() {
         var cc = document.body.className;
         if (cc.indexOf("darktheme") > -1) {
@@ -1080,7 +1056,6 @@
         //  window.editor.on("change", function () {window.editor.save();});
       }
       colorcoding();
-
       function w3_getStyleValue(elmnt, style) {
         if (window.getComputedStyle) {
           return window.getComputedStyle(elmnt, null).getPropertyValue(style);
@@ -1088,7 +1063,6 @@
           return elmnt.currentStyle[style];
         }
       }
-
       function openMenu() {
         var x = document.getElementById("navbarDropMenu");
         var y = document.getElementById("menuOverlay");
